@@ -5,3 +5,247 @@
 .js-typeahead {
   width: 100%;
 }
+
+.message-popup input {
+  width: 100%;
+}
+
+.w-search input {
+  width: 100%;
+}
+
+.content-wrapper .swiper-wrapper {
+  margin-top: 2rem;
+}
+
+.min-h-100vh {
+  min-height: 100vh;
+}
+
+.img-w-100 {
+  width: 50%;
+}
+
+.content-wrapper .video-container {
+  box-sizing: border-box;
+  border: 1px solid #ecf5fe;
+  background-color: #000000;
+  border-radius: 16px;
+  box-shadow: 0 12px 20px #0460bd2a;
+  padding: 1rem;
+}
+
+.content-wrapper .video-container video {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.margin-top-4 {
+  margin-top: 4rem;
+}
+
+.margin-bottom-4 {
+  margin-bottom: 4rem;
+}
+
+.padding-y-4 {
+  padding: 4rem 0;
+}
+
+.marquee-bg-dark {
+  background-color: #121921;
+}
+
+.text-light {
+  color: white;
+}
+
+.text-neon-light {
+  color: #ffff00;
+}
+
+.padding-y-2 {
+  padding: 2rem 0;
+}
+
+.text-align-justify {
+  text-align: justify;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.list-disc {
+  list-style: disc;
+  padding-left: 16px;
+}
+
+.clients-item {
+  text-align: center;
+}
+
+.clients-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  filter: none !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.padding-1 {
+  padding: 1rem;
+}
+
+.slider-faqs-thumb img {
+  object-fit: contain;
+}
+
+.particular-image {
+  margin: 0;
+}
+
+.margin-top-0 {
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+
+input {
+  width: 100%;
+}
+
+.nice-select {
+  width: 100%;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.text-dark {
+  color: #273f5b;
+}
+
+.pb-4 {
+  padding-bottom: 40px;
+}
+
+.image-icon {
+  height: 32px;
+  width: 32px;
+  align-items: flex-end;
+}
+
+.swiper-image {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.swiper-container {
+  position: static;
+}
+
+.curriculum-event {
+  position: relative;
+}
+
+.curriculum-event.noevent:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 44;
+}
+
+.curriculum-event.noevent:hover::before {
+  content: "Registration open soon";
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 46;
+}
+
+.image-event {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .choose-item {
+    padding: 20px 30px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .clientelle-img {
+    display: none;
+  }
+
+  .clientelle-heading {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  .padding-r-values {
+    padding-right: 80px !important;
+  }
+  .padding-l-values {
+    padding-left: 80px !important;
+  }
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.spartan-img {
+  width: 385px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+}
+
+.spartan-img img {
+  border-radius: inherit;
+}
+
+.post-thumb img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .post-thumb img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+}
